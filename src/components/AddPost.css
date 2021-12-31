@@ -1,0 +1,145 @@
+
+.btn5{
+    float:left;
+    border-radius: 10%;
+}
+
+
+.header{
+    display: flex; 
+    border:1px solid black;
+    text-align: center;
+    margin-top: 10px;
+    border-left: none;
+    border-right: none;
+}
+.headertext{
+    text-align: center;
+    margin-top: 10px;
+    margin-left:16em;
+}
+.btn1{
+    border-radius: 50px;
+    width: 80px;
+    margin-top: 10px;
+    height: 40px;
+    margin-left:27em;
+}
+
+@media only screen and (max-width:1300px){
+    .header{
+        display: flex; 
+        border:1px solid black;
+        text-align: center;
+        margin-top: 10px;
+        border-left: none;
+        border-right: none;
+    }
+    .headertext{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 1em;
+    }
+    .btn1{
+        border-radius: 50px;
+        width: 80px;
+        margin-left: 20em;
+        margin-bottom: 10px;
+        height: 40px;
+    }
+}
+@media only screen and (max-width:1290px) and (max-width:600px) and (min-width:300px){
+    .header{
+        display: flex; 
+        border:1px solid black;
+        text-align: center;
+        margin-top: 10px;
+        border-left: none;
+        border-right: none;
+    }
+    .headertext{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 1em;
+    }
+    .btn1{
+        border-radius: 50px;
+        width: 80px;
+        margin-left: 15em;
+        margin-bottom: 10px;
+        height: 40px;
+    }
+
+}
+
+/* jwnwk */
+
+.title{
+    float: left;
+    margin-top: 30px;
+}
+h3{
+    float: left;
+}
+p{
+    float: left;
+}
+a{
+    margin-right: -2em;
+    float: right;
+}
+.btn2{
+    border-radius: 50px;
+        width: 80px;
+        height: 40px;
+        float: left;
+        margin-right: 10px;
+}
+.btn3{
+    border-radius: 50px;
+        width: 80px;
+        height: 40px;
+        float: left;
+}
+@media only screen and (max-width:1300px) and (max-width:600px) and (min-width:300px){
+    .title{
+        float: left;
+        margin-top: 30px;
+    }
+    h3{
+        float: left;
+    }
+    p{
+        float: left;
+    }
+    a{
+        margin-right: 15em;
+        text-align: center;
+    }
+    .btn2{
+        border-radius: 50px;
+            width: 80px;
+            height: 40px;
+            float: left;
+        
+    }
+    .btn3{
+        border-radius: 50px;
+            width: 80px;
+            height: 40px;
+            float: left;
+    }
+
+}
+.blogdetails{
+    margin-top: 5rem;
+}
+.btnfuntionalities{
+    margin-left: 5em;
+}
+@media (max-width:500px){
+    .btnfuntionalities{
+        display: flex;
+        margin-left: -1em;
+    }
+}
